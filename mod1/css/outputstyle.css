@@ -1,0 +1,287 @@
+#dropdownMenuButton {
+  color: #e6e6ff;
+  background: none;
+  border: none;
+  margin-right: 120px;
+}
+
+#myprofile {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e6e6ff;
+}
+
+#headnavbar {
+  background-color: #283E4A;
+  width: 100%;
+  height: 52px;
+  position: fixed;
+}
+
+.navbaricon {
+  color: #e6e6ff;
+}
+.navbaricon:hover {
+  color: white;
+}
+
+#linkednicon {
+  color: white;
+  width: 33px;
+  background-color: #3333ff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 27px;
+  margin-right: 15px;
+  border-radius: 3px;
+}
+
+#navlinks {
+  position: fixed;
+  left: 550px;
+}
+
+#navlinks ul li {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  margin-right: 20px;
+}
+
+#profile {
+  position: relative;
+  bottom: 5px;
+}
+
+#searchset {
+  position: relative;
+  left: 100px;
+}
+
+#searchinput {
+  width: 280px;
+  background-color: #e6e6ff;
+  border-radius: 2px;
+}
+
+#menudiv {
+  position: relative;
+  right: 100px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: white;
+}
+
+#menuicon {
+  margin-left: 20px;
+  color: white;
+}
+
+#headbartwo {
+  position: relative;
+  background-color: #e6e6ff;
+  color: gray;
+  height: 59px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+}
+
+#headdescription {
+  position: relative;
+  right: 170px;
+  top: 15px;
+}
+
+#contentrow {
+  position: relative;
+  top: 52px;
+}
+
+#profilecard {
+  width: 220px;
+}
+
+#profileimage {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  left: 58px;
+  top: 0px;
+  z-index: 10000;
+  border-radius: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+#propline1 {
+  height: 100px;
+}
+
+#proplinemain {
+  background-color: #6666ff;
+  height: 48px;
+}
+
+#profilename {
+  height: 110px;
+}
+
+#profilename h1 {
+  position: relative;
+  top: 45px;
+  font-size: 19px;
+  left: 50px;
+}
+
+#profilename a {
+  color: #0d71bb;
+  position: relative;
+  top: 19px;
+  left: 55px;
+}
+#profilename a #profilename a :hover {
+  color: black;
+  border-bottom: 1px solid blue !important;
+}
+
+#propline1 {
+  height: 70px;
+}
+
+#propline1 a:hover {
+  color: blue !important;
+}
+
+#p1 {
+  font-size: 12px;
+  color: gray;
+}
+
+#propline2 a {
+  font-size: 13px;
+  color: black;
+}
+#propline2 a:hover {
+  color: blue;
+}
+
+#profilegroup {
+  margin-top: 6px;
+  width: 220px;
+  height: 100px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 2px;
+}
+
+#discover {
+  width: 220px;
+  height: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 2px;
+}
+
+#discovertext {
+  color: black;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+#profilefullcard {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 107px;
+}
+
+.headbartwonavlinks {
+  border-left: 1px solid #cccccc;
+  position: relative;
+  top: 5px;
+  font-weight: bold;
+}
+
+#headtwodropdaon {
+  position: relative;
+  left: 180px;
+  top: 15px;
+}
+
+#startpost {
+  position: relative;
+  color: gray;
+  margin-right: 280px;
+}
+
+#startpost2 {
+  color: gray;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+#startpost3 {
+  color: gray;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+#startpost4 {
+  color: gray;
+  margin-left: 20px;
+}
+
+.posttext {
+  display: inline-block;
+  font-size: 20px;
+}
+
+#camara {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+}
+
+#cardone {
+  position: relative;
+  margin-left: 0px;
+  margin-top: 50px;
+  width: 660px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+}
+
+#filewatch {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+}
+
+#videowatch {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+}
+
+#posttext a:hover {
+  color: #0d71bb !important;
+}
+
+#newpop {
+  width: 500px;
+  height: 400px;
+  background-color: yellow;
+  position: absolute;
+  top: 100px;
+  left: 40%;
+}
+
+/*# sourceMappingURL=outputstyle.css.map */

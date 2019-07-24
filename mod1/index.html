@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="js/semantic.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/outputstyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+<div class="container-fluid">
+    <div class="row">
+
+        <!--//////////////////////////////////////Head-bar-Open//////////////////////////////////////////////////////////////////////////-->
+
+        <nav class="navbar navbar-light " id="headnavbar" style="z-index:1000">
+            <form class="form-inline" id="searchset">
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <i class="fab fa-linkedin-in" id="linkednicon"></i>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search " aria-label="Username"
+                           aria-describedby="basic-addon1" id="searchinput">
+                    <!--<i class="fas fa-search" id="searchicon"></i>-->
+                </div>
+
+                <div id="navlinks">
+                    <ul>
+                        <li><i class="fas fa-home fa-1x navbaricon"><br>Home</i></li>
+                        <li><i class="fas fa-user-friends navbaricon"><br>My Network</i></li>
+                        <li><i class="fas fa-briefcase navbaricon"><br>Jobs</i></li>
+                        <li><i class="far fa-comment-alt navbaricon"><br>Messaging</i></li>
+                        <li><i class="fas fa-bell navbaricon"><br>Notifications</i></li>
+                        <li>
+                            <div class="dropdown navbaricon" id="profile">
+                                <img src="images/Myprofileimage.png" alt="" id="myprofile">
+                                <button class="btn btn-secondary dropdown-toggle navbaricon" type="button"
+                                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                    Me
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="menudiv"><i class="fas fa-bars fa-2x" id="menuicon"></i></div>
+                        </li>
+                    </ul>
+                </div>
+
+            </form>
+        </nav>
+
+        <!--//////////////////////////////////////Head-bar-Close//////////////////////////////////////////////////////////////////////////-->
+
+        <!--//////////////////////////////////////Content-Open//////////////////////////////////////////////////////////////////////////-->
+
+        <div class="container-fluid">
+            <div class="row" id="contentrow">
+
+                <div class="col-md-12" id="headbartwo">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item" id="headdescription">
+                            <p>Isuru,complete these steps to get the most out of LinkdIn: </p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link headbartwonavlinks" href="#" headbartwonavlinks>Add work experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link headbartwonavlinks" href="#">Keep connecting</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled headbartwonavlinks" href="#" tabindex="-1" aria-disabled="true">Follow
+                                hashtags</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <i class="fas fa-caret-down fa-2x" id="headtwodropdaon"></i>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div id="profilefullcard">
+                        <div class="card" id="profilecard">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item" id="proplinemain"><img src="images/Myprofileimage.png"
+                                                                                   class="card-img-top" alt="..."
+                                                                                   id="profileimage"></li>
+                                <div id="profilename">
+                                    <h1>Welcome,Isuru!</h1><br>
+                                    <a href="#">Update your profile</a>
+                                </div>
+                                <li class="list-group-item" id="propline1">
+                                    <a href="#" style="color: gray">Connections</a><br>
+                                    <a href="#" style="color: black">Grow your network</a>
+                                </li>
+                                <li class="list-group-item" id="propline2">
+                                    <p id="p1">Access exclusive tools & insights</p>
+                                    <a href="#">Try Premium Free For 1 Month</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="card-body" id="profilegroup">
+                            <a href="#">Groups</a><br>
+                            <a href="#">Followed Hashtags</a><br>
+                            <a href="#">Followed Hashtags</a>
+                        </div>
+
+                        <div class="card-body" id="discover">
+                            <a href="#" id="discovertext">Discover more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="card" id="cardone">
+                        <div id="postdiv">
+                            <div class="card-body"  style="float: left">
+                                <i class="far fa-edit fa-2x" id="startpost"><a href="#" class="posttext"style="color: gray;"id="btnPost">Start a post</a></i>
+                            </div>
+                            <div class="card-body" style="float: left;" id="camara">
+                                <i class="fas fa-camera fa-2x" id="startpost2"></i>
+                            </div>
+                            <div class="card-body" id="filewatch" style="float: left">
+                                <i class="far fa-file-alt fa-2x" id="startpost3"></i>
+                            </div>
+                            <div class="card-body" id="videowatch">
+                                <i class="fas fa-video fa-2x" id="startpost4"></i>
+                            </div>
+                            <div class="card-header">
+                                <a href="#">Write an article</a>on LinkedIn
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <hr></div>
+                        <div class="col-md-2">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: none;border: none;color: black">
+                                    Sort by:Top
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <button class="dropdown-item" type="button" style="color: #0d71bb">Top</button>
+                                    <button class="dropdown-item" type="button">Recent</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ui card" id="">
+                        <div class="content">
+                            <div class="header"><p>Isuru Umayanga like this</p></div>
+                        </div>
+                        <div class="content">
+
+                        </div>
+                        <div class="extra content">
+                            <h1>ghghg</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3" style="border-left: 1px solid black">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div id="newpop" style="display: none"></div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/myjs.js"></script>
+</body>
+</html>

@@ -558,9 +558,27 @@ $color_gray: gray;
   }
 }
 
-#addoracle {
+.slider {
   width: 260px;
   height: 130px;
+  animation: slider 10s infinite;
+}
+@keyframes slider {
+  0%{
+    background: url("../images/oracle.jpg");
+  }
+  25%{
+    background: url("../images/adult-coding-collaborate-1181472.jpg");
+  }
+  50%{
+    background: url("../images/adult-developer-development-1181267.jpg  ");
+  }
+75%{
+    background: url("../images/adults-desk-developer-1181371.jpg");
+  }
+  100%{
+    background: url("../images/apple-blogging-coder-36990.jpg");
+  }
 }
 
 #addcard {

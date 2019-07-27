@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>LinkedIn-Home-page</title>
     <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
     <script
             src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/outputstyle.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Hanalei|Roboto&display=swap" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -33,7 +35,7 @@
 
         <!--//////////////////////////////////////Head-bar-Open//////////////////////////////////////////////////////////////////////////-->
 
-        <nav class="navbar navbar-light " id="headnavbar" style="z-index:1000">
+        <nav class="navbar navbar-light " id="headnavbar" style="z-index:10">
             <form class="form-inline" id="searchset">
 
                 <div class="input-group">
@@ -78,7 +80,7 @@
 
         <!--//////////////////////////////////////Head-bar-Close//////////////////////////////////////////////////////////////////////////-->
 
-        <!--//////////////////////////////////////Content-Open//////////////////////////////////////////////////////////////////////////-->
+        <!--//////////////////////////////////////Second-headbar-Open//////////////////////////////////////////////////////////////////////////-->
 
         <div class="container-fluid">
             <div class="row" id="contentrow">
@@ -95,7 +97,7 @@
                             <a class="nav-link headbartwonavlinks" href="#">Keep connecting</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled headbartwonavlinks" href="#" tabindex="-1" aria-disabled="true">Follow
+                            <a class="nav-link disabled headbartwonavlinks" href="#" tabindex="-1" aria-disabled="true" style="font-weight: normal"><i class="fas fa-check"></i>Follow
                                 hashtags</a>
                         </li>
 
@@ -105,8 +107,14 @@
                     </ul>
                 </div>
 
+                <!--/////////////////////////////////////////Close-second-headbar///////////////////////////////////////////-->
+
+                <!--///////////////////////////////////////////Open-Content-01/////////////////////////////////////////////////-->
+
+
 
                 <div class="col-md-3">
+
                     <div id="profilefullcard">
                         <div class="card" id="profilecard">
                             <ul class="list-group list-group-flush">
@@ -128,25 +136,30 @@
                             </ul>
 
                         </div>
-
-                        <div class="card-body" id="profilegroup">
-                            <a href="#">Groups</a><br>
-                            <a href="#">Followed Hashtags</a><br>
-                            <a href="#">Followed Hashtags</a>
-                        </div>
-
-                        <div class="card-body" id="discover">
-                            <a href="#" id="discovertext">Discover more</a>
-                        </div>
                     </div>
+
+                    <div class="card"id="newmyprofile">
+                        <ul class="list-group list-group-flush"id="profilestickeyline">
+                            <li class="list-group-item groupcard" ><a href="#">Groups <br>Followed Hashtags</a></li>
+                            <li class="list-group-item"id="discovermore"><a href="#">Discover more</a></li>
+                        </ul>
+                    </div>
+
                 </div>
+
+
+                <!--/////////////////////////////////////////Close-Content-01////////////////////////////////////////////////////////-->
+
+                <!--///////////////////////////////////////////Open-Content-02////////////////////////////////////////////////////////-->
 
                 <div class="col-md-6">
 
                     <div class="card" id="cardone">
                         <div id="postdiv">
-                            <div class="card-body"  style="float: left">
-                                <i class="far fa-edit fa-2x" id="startpost"><a href="#" class="posttext"style="color: gray;"id="btnPost">Start a post</a></i>
+                            <div class="card-body" style="float: left">
+                                <i class="far fa-edit fa-2x" id="startpost"><a href="#" class="posttext"
+                                                                               style="color: gray;">Start a
+                                    post</a></i>
                             </div>
                             <div class="card-body" style="float: left;" id="camara">
                                 <i class="fas fa-camera fa-2x" id="startpost2"></i>
@@ -162,15 +175,21 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--***************************************************************************************-->
+
                     <div class="row">
                         <div class="col-md-10">
-                            <hr></div>
+                            <hr>
+                        </div>
                         <div class="col-md-2">
                             <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: none;border: none;color: black">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                        style="background: none;border: none;color: black;">
                                     Sort by:Top
                                 </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2" id="dropdown">
                                     <button class="dropdown-item" type="button" style="color: #0d71bb">Top</button>
                                     <button class="dropdown-item" type="button">Recent</button>
                                 </div>
@@ -178,32 +197,184 @@
                         </div>
                     </div>
 
-                    <div class="ui card" id="">
+                    <!--*************************************************************************************-->
+
+                    <div class="ui card" id="cardviewpost" style="margin-left:6px">
                         <div class="content">
-                            <div class="header"><p>Isuru Umayanga like this</p></div>
+                            <div class="header"><p id="wholike" style="float: left">Isuru Umayanga</p>
+                                <p id="wholike2"> like this</p>
+                                <i class="fas fa-ellipsis-h"
+                                   style="color: #808080;position: relative;left: 595px;bottom: 25px"></i>
+                            </div>
                         </div>
                         <div class="content">
-
+                            <img src="images/44_barack_obama1.jpg" alt="" id="obama" style="float: left">
+                            <h3 id="obamatag" style="float: left">Barack obama</h3>
+                            <p id="obamaonline">.2nd</p>
+                            <p id="obamadist">Former president,Social Media Consultant,Most Popular Persaonality in
+                                World</p>
+                            <a href="#">#www.obamaworld.com</a><br>
+                            <a href="#">#www.followamerica.com</a>
                         </div>
                         <div class="extra content">
-                            <h1>ghghg</h1>
+                            <img src="images/TakingOnTrump4-1024x553.jpg" alt="" id="meetsiri">
+                            <i class="fas fa-thumbs-up"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-hand-spock"></i>
+                            <a href="#">23K</a>
+                            <a href="#">14k Comments</a>
+                        </div>
+                        <div class="extra content">
+                            <i class="far fa-thumbs-up fa-2x"></i>
+                            Like
+                            <i class="far fa-comment-alt fa-2x"></i>
+                            Comment
+                            <i class="fas fa-share fa-2x"></i>
+                            Share
+                        </div>
+                    </div>
+
+                    <!--************************************************************************************-->
+
+                    <div class="ui card" id="newcardviewpost" style="margin-left: 6px">
+                        <div class="content">
+                            <div class="header"><p id="newwholike" style="float: left">Sunny leone</p>
+                                <p id="newwholike2"> like this</p>
+                                <i class="fas fa-ellipsis-h"
+                                   style="color: #808080;position: relative;left: 595px;bottom: 25px"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <img src="images/isuru.jpg" alt="" id="newobama" style="float: left">
+                            <h3 id="newobamatag" style="float: left">Isuru Umayanga</h3>
+                            <p id="newobamaonline">.2nd</p>
+                            <p id="newobamadist">People may Hear Your Words but
+                                They Feel Your Attitude!</p>
+                            <a href="#">#umayangaisuru97@gmail.com</a><br>
+                            <a href="#">#www.umatech.com</a>
+                        </div>
+                        <div class="extra content">
+                            <video controls style="position: relative;right: 15px;bottom: 10px;width: 646px">
+                                <source src="video/olimpic.mp4" type="video/mp4">
+                            </video>
+                            <i class="fas fa-thumbs-up"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-hand-spock"></i>
+                            <a href="#">44K</a>
+                            <a href="#">35k Comments</a>
+                        </div>
+                        <div class="extra content">
+                            <i class="far fa-thumbs-up fa-2x"></i>
+                            Like
+                            <i class="far fa-comment-alt fa-2x"></i>
+                            Comment
+                            <i class="fas fa-share fa-2x"></i>
+                            Share
                         </div>
                     </div>
 
                 </div>
 
-                <div class="col-md-3" style="border-left: 1px solid black">
+                <!--///////////////////////////////////////Close-Content-02//////////////////////////////////////////////////////////////-->
+
+                <!--///////////////////////////////////////////Open-Content-03//////////////////////////////////////////////////////////////-->
+
+                <div class="col-md-3" id="addtable">
+
+                    <div class="ui card" id="addcard">
+                        <div class="content">
+                            <div class="header"></div>
+                        </div>
+                        <p id="addclick">Ad ...</p>
+                        <p id="adddesc">Develop your skils</p>
+                        <img src="images/Myprofileimage.png" alt="" id="addimage">
+                        <p id="addtext">Isuru,unlock access to 13,000+courses</p>
+                        <div id="addsee" style="text-align: center">Click</div>
+                        <div class="content">
+                            <h4 class="ui sub header">View Add</h4>
+                            <div class="ui small feed">
+                                <div class="event">
+                                    <div class="content">
+                                        <div class="summary">
+                                            <img src="images/oracle.jpg" alt="" id="addoracle">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--******************************************************************************************-->
+
+                    <div class="card text-center" id="messaging">
+                        <div class="card-header">
+                            <ul class="nav nav-pills card-header-pills">
+                                <li class="nav-item">
+                                    <img src="images/Myprofileimage.png" alt="" id="msgimag">
+                                </li>
+                                <li class="nav-item">
+                                    <p class="nav-link" href="#" id="msggtext">Messaging</p>
+                                </li>
+                                <li class="nav-item">
+                                    <a href=""><i class="far fa-edit" id="msgwrite"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href=""> <i class="fas fa-cog" id="msgsetting"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--*******************************************************************************************-->
                 </div>
+
+
+                <!--///////////////////////////////////////////Open-Content-03//////////////////////////////////////////////////////////////-->
+
             </div>
         </div>
-
-
     </div>
+
+
+    <!--////////////////////PopUp/////////////////////////////////////////////////-->
+    <div id="newpop" style="display: none">
+        <div class="card"id="messagingafter">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"id="popline1">
+                    <img src="images/Myprofileimage.png" alt="" id="newmsgimag">
+                    <p class="nav-link" id="newmsggtext">Messaging</p>
+                    <a href=""><i class="far fa-edit" id="newmsgwrite"></i></a>
+                    <a href=""> <i class="fas fa-cog" id="newmsgsetting"></i></a>
+                </li>
+                <li class="list-group-item"><input type="search" id="popupsearch" placeholder="Search"></li>
+                <li class="list-group-item mi3line"><img src="images/President_maithripala_Sirisena.jpg" alt="" class="mi3"><p style="color: black;">Maithripala Sirisena
+                    <br><small>Maithripala Sirisena:Hiiii</small></p></li>
+                <li class="list-group-item mi3line"><img src="images/mahi.jpg" alt="" class="mi3"><p style="color: black;">Mahinda Rajapaksa
+                    <br><small>Mahinda Rajapaksa:හලෝ</small></p></li>
+                <li class="list-group-item mi3line"><img src="images/ranil.jpg" alt="" class="mi3"><p style="color: black;">Ranil Wickremesinghe
+                    <br><small>Ranil Wickremesinghe:Hiiii</small></p></li>
+                <li class="list-group-item mi3line"><img src="images/President_maithripala_Sirisena.jpg" alt="" class="mi3"><p style="color: black;">Maithripala Sirisena
+                    <br><small>Maithripala Sirisena:Hiiii</small></p></li>
+                <li class="list-group-item mi3line"><img src="images/President_maithripala_Sirisena.jpg" alt="" class="mi3"><p style="color: black;">Maithripala Sirisena
+                    <br><small>Maithripala Sirisena:Hiiii</small></p></li>
+
+                <li class="list-group-item mi3line"><img src="images/President_maithripala_Sirisena.jpg" alt="" class="mi3"><p style="color: black;">Maithripala Sirisena
+                    <br><small>You:Adooo</small></p></li>
+
+                <li class="list-group-item mi3line"><img src="images/President_maithripala_Sirisena.jpg" alt="" class="mi3"><p style="color: black;">Maithripala Sirisena
+                    <br><small>Maithripala Sirisena:Hiiii</small></p></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/myjs.js"></script>
+    <!--this div isert after-->
 </div>
-
-<div id="newpop" style="display: none"></div>
-
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/myjs.js"></script>
+<!--this div insert after-->
 </body>
 </html>

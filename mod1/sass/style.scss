@@ -1,20 +1,20 @@
-$color_black:black;
-$color_profile:#283E4A;
-$color_blue:blue;
-$color_lightblue:#3333ff;
-$color_darkwhite:#e6e6ff;
-$color_white:white;
-$font-weightbold:bold;
-$color_gray:gray;
+$color_black: black;
+$color_profile: #283E4A;
+$color_blue: blue;
+$color_lightblue: #3333ff;
+$color_darkwhite: #e6e6ff;
+$color_white: white;
+$font-weightbold: bold;
+$color_gray: gray;
 
-#dropdownMenuButton{
+#dropdownMenuButton {
   color: $color_darkwhite;
   background: none;
   border: none;
   margin-right: 120px;
 }
 
-#myprofile{
+#myprofile {
   width: 30px;
   height: 30px;
   border-radius: 100%;
@@ -23,189 +23,221 @@ $color_gray:gray;
     width: 1px;
     style: solid;
     color: $color_darkwhite;
-  };
+  }
+;
 }
 
-#headnavbar{
+#headnavbar {
   background-color: $color_profile;
   width: 100%;
   height: 52px;
   position: fixed;
 }
 
-.navbaricon{
+.navbaricon {
   color: $color_darkwhite;
 
-  &:hover{
+  &:hover {
     color: $color_white;
   }
 }
 
-#linkednicon{
+#linkednicon {
   color: $color_white;
   width: 33px;
   background-color: $color_lightblue;
-  text-align:center;
+  text-align: center;
   font-weight: bold;
   font-size: 27px;
 
   margin: {
     right: 15px;
-  };
+  }
+;
 
   border: {
     radius: 3px;
-  };
+  }
+;
 }
 
 //#searchicon{
 //  position: relative;
 //  right: 100px;
 //}
-#navlinks{
+#navlinks {
   position: fixed;
   left: 550px;
 }
 
-#navlinks ul li{
+#navlinks ul li {
   display: inline-block;
   position: relative;
   top: 10px;
   margin: {
     right: 20px;
-  };
+  }
+;
 }
 
-#profile{
+#profile {
   position: relative;
   bottom: 5px;
 }
 
-#searchset{
+#searchset {
   position: relative;
   left: 100px;
 }
-#searchinput{
+
+#searchinput {
   width: 280px;
   background-color: #e6e6ff;
   border: {
     radius: 2px;
-  };
+  }
+;
 }
 
-#menudiv{
+#menudiv {
   position: relative;
   right: 100px;
   border-left: {
     width: 1px;
     style: solid;
     color: $color_white;
-  };
+  }
+;
 }
-#menuicon{
+
+#menuicon {
   margin-left: 20px;
   color: $color_white;
 }
 
 /////////////////////////////////////////Content-01////////////////////////////////////////////////////////////
-#headbartwo{
+#headbartwo {
   position: relative;
   background-color: #e6e6ff;
   color: $color_gray;
-  height:59px;
+  height: 59px;
   border: {
     width: 1px;
     style: solid;
     color: #d9d9d9;
-  };
+  }
+;
 }
 
-#headdescription{
+#headdescription {
   position: relative;
   right: 170px;
   top: 15px;
 }
 
-#contentrow{
+#contentrow {
   position: relative;
   top: 52px;
 }
-#profilecard{
+
+#profilecard {
   width: 220px;
 }
-#profileimage{
+
+#profileimage {
   height: 70px;
-  width:70px;
+  width: 70px;
   position: relative;
   left: 58px;
   top: 0px;
-  z-index: 10000;
 
   border: {
     radius: 100%;
     width: 1px*2;
     style: solid;
     color: white;
-  };
+  }
+;
 }
-#propline1{
+
+#propline1 {
   height: 100px;
 }
-#proplinemain{
-  background-color: #6666ff;
+
+#proplinemain {
+  background-color: #0040ff;
   height: 48px;
 }
-#profilename{
+.groupcard{
+  font-size: 12px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+#profilename {
   height: 110px;
 }
-#profilename h1{
+#discovermore a{
+  color: #000000;
+  margin-left: 30px;
+  &:hover{
+    color: #0d71bb;
+  }
+}
+#profilename h1 {
   position: relative;
   top: 45px;
   font-size: 19px;
   left: 50px;
 }
-#profilename a{
+
+#profilename a {
   color: #0d71bb;
   position: relative;
   top: 19px;
   left: 55px;
 
-  #profilename a :hover{
+  #profilename a :hover {
     color: black;
-    border-bottom:1px solid blue!important;
+    border-bottom: 1px solid blue !important;
   }
 }
-#propline1{
+
+#propline1 {
   height: 70px;
 }
-#propline1 a:hover{
-  color: $color_blue!important;
+
+#propline1 a:hover {
+  color: $color_blue !important;
 }
-#p1{
+
+#p1 {
   font-size: 12px;
   color: $color_gray;
 }
-#propline2 a{
+
+#propline2 a {
   font-size: 13px;
   color: $color_black;
 
-  &:hover{
+  &:hover {
     color: $color_blue;
   }
 }
-#profilegroup{
+
+#profilegroup {
   margin-top: 6px;
   width: 220px;
-  height: 100px;
+  height: 65px;
   border: {
     width: 1px;
     style: solid;
     //color: $color_gray;
     color: #d9d9d9;
     radius: 2px;
-  };
+  }
+;
 }
-#discover{
+
+#discover {
   width: 220px;
   height: 30px;
   border: {
@@ -214,65 +246,84 @@ $color_gray:gray;
     //color: $color_gray;
     color: #d9d9d9;
     radius: 2px;
-  };
+  }
+;
 }
-#discovertext{
+
+#discovertext {
   color: $color_black;
   position: relative;
   bottom: 10px;
   left: 10px;
 }
 
-#profilefullcard{
+#profilefullcard {
   position: relative;
   margin-top: 50px;
-  margin-left: 107px;
+  margin-left: 98px;
 }
-.headbartwonavlinks{
-  border-left:1px solid #cccccc;
+
+
+.headbartwonavlinks {
+  border-left: 1px solid #cccccc;
   position: relative;
   top: 5px;
   font-weight: $font-weightbold;
 }
-#headtwodropdaon{
+
+#headtwodropdaon {
   position: relative;
   left: 180px;
   top: 15px;
 }
+#newmyprofile{
+  margin-top: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 54px;
+  margin-left: 98px;
+  width:220px;
+}
 
 ///////////////////////////Content-02//////////////////////////////////////////////////////////////////
-#startpost{
+#startpost {
   position: relative;
   color: $color_gray;
   margin-right: 280px;
 }
-#startpost2{
+
+#startpost2 {
   color: $color_gray;
   margin-left: 6px;
   margin-right: 6px;
 }
-#startpost3{
+
+#startpost3 {
   color: $color_gray;
   margin-left: 6px;
   margin-right: 6px;
 }
-#startpost4{
+
+#startpost4 {
   color: $color_gray;
   margin-left: 20px;
 }
-.posttext{
+
+.posttext {
   display: inline-block;
   font-size: 20px;
 }
 
-#camara{
+#camara {
   border: {
-    width:1px;
+    width: 1px;
     style: solid;
-    color:#d9d9d9;
-  };
+    color: #d9d9d9;
+  }
+;
 }
-#cardone{
+
+#cardone {
   position: relative;
   margin-left: 0px;
   margin-top: 50px;
@@ -281,31 +332,314 @@ $color_gray:gray;
     width: 1px;
     style: solid;
     color: #d9d9d9;
-  };
+  }
+;
 }
-#filewatch{
+
+#filewatch {
   border: {
-    width:1px;
+    width: 1px;
     style: solid;
-    color:#d9d9d9;
-  };
+    color: #d9d9d9;
+  }
+;
 }
-#videowatch{
+
+#videowatch {
   border: {
-    width:1px;
+    width: 1px;
     style: solid;
-    color:#d9d9d9;
-  };
+    color: #d9d9d9;
+  }
+;
 }
-#posttext a:hover{
-  color: #0d71bb!important;
+#dropdown{
+  width: 25px;
 }
-/////////////////////////////////////////////////////////////////
-#newpop{
+
+
+#posttext a:hover {
+  color: #0d71bb !important;
+}
+
+#cardviewpost {
+  width: 650px;
+  border: {
+    width: 1px;
+    style: solid;
+    color: #d9d9d9;
+  }
+;
+}
+
+#wholike {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+#wholike2 {
+  position: relative;
+  font-weight: normal;
+  font-size: 12px;
+  color: #808080;
+  margin-right: 470px;
+}
+
+#obama {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border: {
+    radius: 100%;;
+  }
+;
+}
+
+#obamatag {
+  font-size: 15px;
+  font-weight: $font-weightbold;
+  margin-right: 10px;
+}
+
+#obamaonline {
+  color: #808080;
+}
+
+#obamadist {
+  color: #808080;
+}
+
+#meetsiri {
+  width: 646px;
+  height: 500px;
+  position: relative;
+  right: 15px;
+  bottom: 10px;
+}
+
+#messaging {
+  position: fixed;
+  width: 300px;
+  background-color: #1a1a1a;
+}
+
+#msgimag {
+  width: 30px;
+  height: 30px;
+  border: {
+    radius: 100%;
+  }
+;
+}
+
+#msggtext {
+  font-weight: $font-weightbold;
+  color: white;
+}
+
+#msgwrite {
+  margin-top: 10px;
+  position: relative;
+  left: 90px;
+  color: white;
+}
+
+#msgsetting {
+  margin-top: 10px;
+  position: relative;
+  left: 108px;
+  color: white;
+}
+
+//--------------------------second post--------------------------------------
+#newcardviewpost {
+  width: 660px;
+  border: {
+    width: 1px;
+    style: solid;
+    color: #d9d9d9;
+  }
+;
+}
+
+#newwholike {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+#newwholike2 {
+  position: relative;
+  font-weight: normal;
+  font-size: 12px;
+  color: #808080;
+  margin-right: 470px;
+}
+
+#newobama {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border: {
+    radius: 100%;;
+  }
+;
+}
+
+#newobamatag {
+  font-size: 15px;
+  font-weight: $font-weightbold;
+  margin-right: 10px;
+}
+
+#newobamaonline {
+  color: #808080;
+}
+
+#newobamadist {
+  color: #808080;
+}
+
+#newmeetsiri {
+  width: 646px;
+  height: 500px;
+  position: relative;
+  right: 15px;
+  bottom: 10px;
+}
+
+////////////////////////////////////////Content-03//////////////////////////////////////////////////////
+#addclick {
+  color: #808080;
+  position: relative;
+  left: 233px;
+}
+
+#adddesc {
+  color: #808080;
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+}
+
+#addimage {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 100px;
+  border: {
+    radius: 100%;
+  }
+;
+}
+
+#addtext {
+  text-align: center;
+  margin-top: 10px;
+  color: #404040;
+}
+
+#addsee {
+  position: relative;
+  left: 107px;
+  color: #1a1aff;
+  font-weight: $font-weightbold;
+  width: 67px;
+  margin: 4px;
+  padding: 5px;
+  border: {
+    width: 1px;
+    style: solid;
+    color: #1a1aff;
+  }
+;
+  &:hover {
+    background-color: #1a1aff;
+    color: white;
+  }
+}
+
+#addoracle {
+  width: 260px;
+  height: 130px;
+}
+
+#addcard {
+  margin-top: 50px;
+  margin-left: 5px;
+  height: 430px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 54px;
+}
+
+/////////////////////////////////////PopUp////////////////////////////
+#newpop {
   width: 500px;
   height: 400px;
-  background-color: yellow;
   position: absolute;
-  top: 100px;
-  left: 40%;
+  top: 203px;
+  left: 1027px;
+}
+#messagingafter{
+  width: 300px;
+  //background-color: #1a1a1a;
+  position: fixed;
+}
+#newmsgimag {
+  width: 30px;
+  height: 30px;
+  float: left;
+  border: {
+    radius: 100%;
+  }
+;
+}
+#newmsggtext {
+  font-weight: $font-weightbold;
+  color: white;
+  float: left;
+}
+
+#newmsgwrite {
+  margin-top: 10px;
+  margin-left: 60px;
+  color: white;
+}
+
+#newmsgsetting {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+}
+#newmsgimag {
+  width: 40px;
+  height: 40px;
+  border: {
+    radius: 100%;
+  }
+;
+}
+#popline1{
+  height:58px;
+  background-color: #001a1a;
+}
+#popupsearch{
+  width: 270px;
+  height: 30px;
+  position: relative;
+  right: 5px;
+  border: 1px solid #4d3319;
+  border-radius: 2px;
+}
+.mi3line{
+  height: 50px;
+}
+.mi3{
+  height: 43px;
+  width: 43px;
+  margin-right: 10px;
+  border-radius: 100%;
+  position: relative;
+  bottom: 10px;
+  float: left;
 }

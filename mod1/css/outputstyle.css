@@ -111,7 +111,6 @@
   position: relative;
   left: 58px;
   top: 0px;
-  z-index: 10000;
   border-radius: 100%;
   border-width: 2px;
   border-style: solid;
@@ -123,12 +122,25 @@
 }
 
 #proplinemain {
-  background-color: #6666ff;
+  background-color: #0040ff;
   height: 48px;
+}
+
+.groupcard {
+  font-size: 12px;
+  font-family: "Darker Grotesque", sans-serif;
 }
 
 #profilename {
   height: 110px;
+}
+
+#discovermore a {
+  color: #000000;
+  margin-left: 30px;
+}
+#discovermore a:hover {
+  color: #0d71bb;
 }
 
 #profilename h1 {
@@ -173,7 +185,7 @@
 #profilegroup {
   margin-top: 6px;
   width: 220px;
-  height: 100px;
+  height: 65px;
   border-width: 1px;
   border-style: solid;
   border-color: #d9d9d9;
@@ -199,7 +211,7 @@
 #profilefullcard {
   position: relative;
   margin-top: 50px;
-  margin-left: 107px;
+  margin-left: 98px;
 }
 
 .headbartwonavlinks {
@@ -213,6 +225,15 @@
   position: relative;
   left: 180px;
   top: 15px;
+}
+
+#newmyprofile {
+  margin-top: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 54px;
+  margin-left: 98px;
+  width: 220px;
 }
 
 #startpost {
@@ -271,17 +292,271 @@
   border-color: #d9d9d9;
 }
 
+#dropdown {
+  width: 25px;
+}
+
 #posttext a:hover {
   color: #0d71bb !important;
+}
+
+#cardviewpost {
+  width: 650px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+}
+
+#wholike {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+#wholike2 {
+  position: relative;
+  font-weight: normal;
+  font-size: 12px;
+  color: #808080;
+  margin-right: 470px;
+}
+
+#obama {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+#obamatag {
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#obamaonline {
+  color: #808080;
+}
+
+#obamadist {
+  color: #808080;
+}
+
+#meetsiri {
+  width: 646px;
+  height: 500px;
+  position: relative;
+  right: 15px;
+  bottom: 10px;
+}
+
+#messaging {
+  position: fixed;
+  width: 300px;
+  background-color: #1a1a1a;
+}
+
+#msgimag {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+#msggtext {
+  font-weight: bold;
+  color: white;
+}
+
+#msgwrite {
+  margin-top: 10px;
+  position: relative;
+  left: 90px;
+  color: white;
+}
+
+#msgsetting {
+  margin-top: 10px;
+  position: relative;
+  left: 108px;
+  color: white;
+}
+
+#newcardviewpost {
+  width: 660px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+}
+
+#newwholike {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+#newwholike2 {
+  position: relative;
+  font-weight: normal;
+  font-size: 12px;
+  color: #808080;
+  margin-right: 470px;
+}
+
+#newobama {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+#newobamatag {
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#newobamaonline {
+  color: #808080;
+}
+
+#newobamadist {
+  color: #808080;
+}
+
+#newmeetsiri {
+  width: 646px;
+  height: 500px;
+  position: relative;
+  right: 15px;
+  bottom: 10px;
+}
+
+#addclick {
+  color: #808080;
+  position: relative;
+  left: 233px;
+}
+
+#adddesc {
+  color: #808080;
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+}
+
+#addimage {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 100px;
+  border-radius: 100%;
+}
+
+#addtext {
+  text-align: center;
+  margin-top: 10px;
+  color: #404040;
+}
+
+#addsee {
+  position: relative;
+  left: 107px;
+  color: #1a1aff;
+  font-weight: bold;
+  width: 67px;
+  margin: 4px;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1a1aff;
+}
+#addsee:hover {
+  background-color: #1a1aff;
+  color: white;
+}
+
+#addoracle {
+  width: 260px;
+  height: 130px;
+}
+
+#addcard {
+  margin-top: 50px;
+  margin-left: 5px;
+  height: 430px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 54px;
 }
 
 #newpop {
   width: 500px;
   height: 400px;
-  background-color: yellow;
   position: absolute;
-  top: 100px;
-  left: 40%;
+  top: 203px;
+  left: 1027px;
+}
+
+#messagingafter {
+  width: 300px;
+  position: fixed;
+}
+
+#newmsgimag {
+  width: 30px;
+  height: 30px;
+  float: left;
+  border-radius: 100%;
+}
+
+#newmsggtext {
+  font-weight: bold;
+  color: white;
+  float: left;
+}
+
+#newmsgwrite {
+  margin-top: 10px;
+  margin-left: 60px;
+  color: white;
+}
+
+#newmsgsetting {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+#newmsgimag {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#popline1 {
+  height: 58px;
+  background-color: #001a1a;
+}
+
+#popupsearch {
+  width: 270px;
+  height: 30px;
+  position: relative;
+  right: 5px;
+  border: 1px solid #4d3319;
+  border-radius: 2px;
+}
+
+.mi3line {
+  height: 50px;
+}
+
+.mi3 {
+  height: 43px;
+  width: 43px;
+  margin-right: 10px;
+  border-radius: 100%;
+  position: relative;
+  bottom: 10px;
+  float: left;
 }
 
 /*# sourceMappingURL=outputstyle.css.map */

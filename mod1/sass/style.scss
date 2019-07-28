@@ -168,20 +168,24 @@ $color_gray: gray;
   background-color: #0040ff;
   height: 48px;
 }
-.groupcard{
+
+.groupcard {
   font-size: 12px;
   font-family: 'Darker Grotesque', sans-serif;
 }
+
 #profilename {
   height: 110px;
 }
-#discovermore a{
+
+#discovermore a {
   color: #000000;
   margin-left: 30px;
-  &:hover{
+  &:hover {
     color: #0d71bb;
   }
 }
+
 #profilename h1 {
   position: relative;
   top: 45px;
@@ -263,7 +267,6 @@ $color_gray: gray;
   margin-left: 98px;
 }
 
-
 .headbartwonavlinks {
   border-left: 1px solid #cccccc;
   position: relative;
@@ -276,13 +279,14 @@ $color_gray: gray;
   left: 180px;
   top: 15px;
 }
-#newmyprofile{
+
+#newmyprofile {
   margin-top: 5px;
   position: -webkit-sticky;
   position: sticky;
   top: 54px;
   margin-left: 98px;
-  width:220px;
+  width: 220px;
 }
 
 ///////////////////////////Content-02//////////////////////////////////////////////////////////////////
@@ -353,10 +357,10 @@ $color_gray: gray;
   }
 ;
 }
-#dropdown{
+
+#dropdown {
   width: 25px;
 }
-
 
 #posttext a:hover {
   color: #0d71bb !important;
@@ -563,20 +567,21 @@ $color_gray: gray;
   height: 130px;
   animation: slider 10s infinite;
 }
+
 @keyframes slider {
-  0%{
+  0% {
     background: url("../images/oracle.jpg");
   }
-  25%{
+  25% {
     background: url("../images/adult-coding-collaborate-1181472.jpg");
   }
-  50%{
+  50% {
     background: url("../images/adult-developer-development-1181267.jpg  ");
   }
-75%{
+  75% {
     background: url("../images/adults-desk-developer-1181371.jpg");
   }
-  100%{
+  100% {
     background: url("../images/apple-blogging-coder-36990.jpg");
   }
 }
@@ -598,11 +603,13 @@ $color_gray: gray;
   top: 203px;
   left: 1027px;
 }
-#messagingafter{
+
+#messagingafter {
   width: 300px;
   //background-color: #1a1a1a;
   position: fixed;
 }
+
 #newmsgimag {
   width: 30px;
   height: 30px;
@@ -612,6 +619,7 @@ $color_gray: gray;
   }
 ;
 }
+
 #newmsggtext {
   font-weight: $font-weightbold;
   color: white;
@@ -629,6 +637,7 @@ $color_gray: gray;
   margin-left: 10px;
   color: white;
 }
+
 #newmsgimag {
   width: 40px;
   height: 40px;
@@ -637,11 +646,13 @@ $color_gray: gray;
   }
 ;
 }
-#popline1{
-  height:58px;
+
+#popline1 {
+  height: 58px;
   background-color: #001a1a;
 }
-#popupsearch{
+
+#popupsearch {
   width: 270px;
   height: 30px;
   position: relative;
@@ -649,10 +660,12 @@ $color_gray: gray;
   border: 1px solid #4d3319;
   border-radius: 2px;
 }
-.mi3line{
+
+.mi3line {
   height: 50px;
 }
-.mi3{
+
+.mi3 {
   height: 43px;
   width: 43px;
   margin-right: 10px;
@@ -660,4 +673,67 @@ $color_gray: gray;
   position: relative;
   bottom: 10px;
   float: left;
+}
+
+#postcard {
+  width: 600px;
+}
+
+#postcardline1 {
+  background-color: #4775d1;
+  height: 50px;
+  z-index: 1;
+}
+
+#postcardimage {
+  width: 47px;
+  height: 47px;
+  position: relative;
+  left: 260px;
+  top: 10px;
+  border: {
+    radius: 100%;
+    width: 2px;
+    style: solid;
+    color: white;
+  }
+;
+}
+#postclose{
+  color: white;
+  position: relative;
+  left: 480px;
+}
+#postline2{
+  height: 345px;
+}
+#exampleFormControlTextarea1{
+  position: relative;
+  top: 30px;
+  border: none;
+}
+#addhashtag{
+  position: relative;
+  top: 130px;
+  color:#1a1aff;
+}
+#addhashtagp{
+  position: relative;
+  top: 105px;
+  left: 105px;
+}
+.popicon{
+  color: grey;
+  margin: {
+    left: 10px;
+    right: 10px;
+  };
+}
+#btnpost{
+  position: relative;
+  left: 280px;
+  width: 80px;
+}
+#btnpost2{
+  width: 250px;
 }

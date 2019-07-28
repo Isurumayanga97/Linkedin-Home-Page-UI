@@ -577,4 +577,70 @@
   float: left;
 }
 
+#postcard {
+  width: 600px;
+}
+
+#postcardline1 {
+  background-color: #4775d1;
+  height: 50px;
+  z-index: 1;
+}
+
+#postcardimage {
+  width: 47px;
+  height: 47px;
+  position: relative;
+  left: 260px;
+  top: 10px;
+  border-radius: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+#postclose {
+  color: white;
+  position: relative;
+  left: 480px;
+}
+
+#postline2 {
+  height: 345px;
+}
+
+#exampleFormControlTextarea1 {
+  position: relative;
+  top: 30px;
+  border: none;
+}
+
+#addhashtag {
+  position: relative;
+  top: 130px;
+  color: #1a1aff;
+}
+
+#addhashtagp {
+  position: relative;
+  top: 105px;
+  left: 105px;
+}
+
+.popicon {
+  color: grey;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#btnpost {
+  position: relative;
+  left: 280px;
+  width: 80px;
+}
+
+#btnpost2 {
+  width: 250px;
+}
+
 /*# sourceMappingURL=outputstyle.css.map */

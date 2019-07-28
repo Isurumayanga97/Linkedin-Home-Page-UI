@@ -599,12 +599,6 @@
   border-color: white;
 }
 
-#postclose {
-  color: white;
-  position: relative;
-  left: 480px;
-}
-
 #postline2 {
   height: 345px;
 }
@@ -640,7 +634,51 @@
 }
 
 #btnpost2 {
-  width: 250px;
+  width: 230px;
+  position: relative;
+  left: 190px;
+  top: 2px;
+  color: grey;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+}
+#btnpost2:hover {
+  background-color: grey;
+  color: black;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#postcard {
+  position: relative;
+  left: 300px;
 }
 
 /*# sourceMappingURL=outputstyle.css.map */
